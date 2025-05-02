@@ -1,0 +1,35 @@
+<style>
+       *{
+        background-color: rgb(232, 238, 28);
+       } 
+
+       h1{
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         text-align: center;
+       }
+      
+       p{
+         color: rgb(63, 169, 23);
+       }
+
+       
+       .lista-de-hobbies{
+         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+         'Lucida Sans', Arial, sans-serif;
+         font-size: 40px;
+         background-color: blueviolet;
+       }
+
+       .lista-de-canciones{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        background-color: blueviolet;
+       }
+        
+       #luis_romero.jpg{
+        width: 100px;
+        height: 200px;
+        border-radius: 50%;
+      }
+    </style>
