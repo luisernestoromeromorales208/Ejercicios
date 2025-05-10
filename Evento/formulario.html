@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Eventos Culturales </title>
+</head>
+<body>
+    <header>
+        <h1> ¡¡¡ Registrate !!! </h1>
+    </header>
+    <form action="" method="POST">
+        <fieldset>
+            <legend> Datos del Usuario </legend>
+            Nombre <input type="text" id="nombre" name="name" required>
+            <br>
+            Apellido Paterno <input type="text" id="isurname" 
+            name="surname" required>
+            Apellido Materno <input type="text" id="isurname" 
+            name="surname" required>
+
+            <br>
+
+            <legend> Género </legend>
+            <label for="masculino">
+                    <input id="masculino" type="radio" name="genero">
+                    Masculino
+                </label>
+                
+                <label for="femenino">
+                    <input id="femenino" type="radio" name="genero">
+                    Femenino
+                </label>
+
+                <label for="prefirero-no-decir">
+                    <input id="prefirero-no-decir" type="radio" name=
+                    "genero"> Prefiero no decir
+                </label>
+
+                <br>
+
+                Fecha de Nacimiento: <input type="date" required>
+
+                <br>
+
+                Dirección: <input type="text" required>
+                <br>
+
+                Código Postal: <input type="number" name="num" required>
+            
+            <legend> Datos del Contacto </legend>
+            <label for="iemail">Email</label>
+            <input type="email" id="iemail" name="email" required>
+
+            <label for="itel">Teléfono</label>   
+            <input type="tel" id="itel" name="tel" required>
+            
+            </fieldset>
+            
+        </fieldset>
+        <fieldset>
+            <legend> Escoge el evento o los eventos de tu interés </legend>
+            <label for="icandelight">
+                <input id="icandelight" type="checkbox" name="evento">
+                Candelight - Lo Mejor de Hans Zimmer
+            </label>
+
+            <br>
+
+            <label for="iballet">
+                <input id="iballet" type="checkbox" name="evento">
+                We Call It Ballet - La Bella Durmiente
+            </label>
+
+            <br>
+
+            <label for="isabores">
+                <input id="isabores" type="checkbox" name="evento">
+                Sabores con Historia
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend> ¿Eres estudiatne? </legend>
+            <label for="isi">
+            <input id="isi" type="radio" name="estudiante">
+            Sí
+            <label for="ino">
+            <input id="ino" type="radio" name="estudiante">
+            No
+
+            </label>
+
+            <br>
+
+            <legend> Si la respuesta es "Sí", puedes subir tu credencial de
+                estudiante para mayores beneficios </legend>
+            <input type="file" name="file">
+            
+        </fieldset>
+        <input type="button" onclick="alert('El formulario fue enviado')"
+        value="Enviar">
+
+        <input type="reset" value="Resetear">
+
+    </form>
+    
+</body>
+</html>
